@@ -1,3 +1,2 @@
 #!/bin/bash
-%s/^\(.\).*\n/\1/g
-
+cut -c 1 | paste -s -d
